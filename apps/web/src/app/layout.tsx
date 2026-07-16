@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ADGE v3.1",
-  description: "Adaptive Delta-Gamma Engine — analytical tool, not investment advice",
+  title: "ADGE — Adaptive Delta-Gamma Engine",
+  description: "محرّك تحليل كمّي تعليمي لتركيبات الدلتا-غاما. ليست توصية استثمارية.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
